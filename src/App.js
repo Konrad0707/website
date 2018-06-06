@@ -16,6 +16,8 @@ class App extends Component {
           <div className="down-arrow">
           <img src={bg} alt="Sroll"  width="50px"/>
           </div>
+          <h1>Kai-Wei 'Konrad' Wang </h1>
+        <h2>Software Developer, World Traveller, Boba Addict</h2>
         <h2 className="heading" id="about">ABOUT</h2>
           <about />
         <h2 className="heading" id="contact">CONTACT</h2>
