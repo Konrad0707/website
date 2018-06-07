@@ -26,3 +26,16 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.nav-link {
+  opacity: 0;
+}
+
+.NavBar {
+  height: 50px;
+}
+
+.NavBar .nav-name {
+  font-size: 36px;
+  margin-left: 10px;
+}
