@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import About from './components/about.js'
 import Contact from './components/contact.js'
 import Projects from './components/projects.js'
@@ -18,20 +19,23 @@ class App extends Component {
           </div>
           <h1>Kai-Wei 'Konrad' Wang </h1>
         <h2>Software Developer, World Traveller, Boba Addict</h2>
-        <BrowserRouter>
-  <div>
-      <Link to={'/home'}>Home</Link>
-      <Link to={'/contact'}"/"contact>Contact</Contact>
-      <Link to='/'projects>Projects</Projects>
-      <Route exact path="/" component={Home} />
-      <Route path="/people" component={People} />
-      <Route path="/contact" component={Contact} />
-      <Route path="/projects" component={Projects} />
-    </div>
-  <BrowserRouter />
-        </div>
+        <Router>
+          <div>
+              <Link to={'/'}>About</Link>
+              <Link to={'/contact'}>Contact</Link>
+              <Link to={'/projects'}>Projects</Link>
+              <Link to = {'/resume'}>Resume</Link>
+
+              <Route exact path='/' component={About} />
+              <Route path='/resume' component={Resume} />
+              <Route path='/contact' component={Contact} />
+              <Route path='/projects'component={Projects} />
+          </div>
+        </Router>
+      </div>
       );
     }
+}
 
 
 export default App;
