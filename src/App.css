@@ -14,6 +14,10 @@
   color: white;
 }
 
+ul{
+  list-style-type: none;
+}
+
 .App-title {
   font-size: 1.5em;
 }

@@ -11,13 +11,13 @@ class App extends Component {
   }
 
   static defaultProps = {
-  bodyMaxWidth: 425,
+  bodyMaxWidth: 900,
   designWidth: 0,
   }
   constructor({bodyMaxWidth, designWidth}) {
     super()
     document.body.style.maxWidth = `${bodyMaxWidth}px`
-    document.body.style.background ='#6087FF'
+    document.body.style.background ='FFFFFFF'
     if (designWidth) {
       // 如果 designWidth > 0 使用 Rem Layout
       // @闲闲 提供
