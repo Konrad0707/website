@@ -23,6 +23,7 @@ class Page extends Component {
           </div>
           <h1>Kai-Wei 'Konrad' Wang </h1>
         <h2>Software Developer, World Traveller, Boba Addict</h2>
+        <h1>Heres a little bit about me, I will be telling you guys everything about my life</h1>
         <Router>
           <div>
               <Link to={'/'}>About</Link>
