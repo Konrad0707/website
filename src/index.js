@@ -19,7 +19,8 @@ class Page extends Component {
       <div className="App">
           <Menu/>
           <div className="down-arrow">
-          <img src={bg} alt="Sroll"  width="50px"/>
+          <img src={bg} alt=""  width="50px"/>
+          
           </div>
           <h1>Kai-Wei 'Konrad' Wang </h1>
         <h2>Software Developer, World Traveller, Boba Addict</h2>

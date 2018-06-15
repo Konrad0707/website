@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './menu.scss'
-//<li className="nav-item nav-name">SUH</li>
+import './major.scss'
+
 class menu extends Component {
   render() {
     return (
