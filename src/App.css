@@ -17,6 +17,10 @@
 
 ul {
   list-style-type: none;
+  display: inline-flex;
+  width:100%;
+  overflow: hidden;
+  
 }
 
 .nav-link {
