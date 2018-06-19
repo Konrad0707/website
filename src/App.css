@@ -15,6 +15,9 @@
   color: black;
 }
 
+ul {
+  list-style-type: none;
+}
 
 .nav-link {
   opacity: 0;

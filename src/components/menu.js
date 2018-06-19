@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import About from './about.js'
+import Contact from './contact.js'
+import Projects from './projects.js'
+import Resume from './resume.js'
 import './major.scss'
-
 class menu extends Component {
   render() {
     return (
-      <div className = "menuBar">
-        <ul className="menu">
-          <li className="nav-item nav-last"><a href="#contact" className="nav-link">Contact</a></li>
-          <li className="nav-item"><a href="#resume" className="nav-link">Resume</a></li>
-          <li className="nav-item"><a href="#about" className="nav-link">About</a></li>
-          <li className="nav-item"><a href="#projects" className="nav-link">Projects</a></li>
+      <div className = "MenuBar">
+        <ul className = "menu">
+          <li><Link to={'/'}>About</Link></li>
+          <li><Link to={'/Contact'}>Contact</Link></li>
+          <li><Link to={'/Projects'}>Projects</Link></li>
+          <li><Link to = {'/Resume'}>Resume</Link></li>
         </ul>
       </div>
     );

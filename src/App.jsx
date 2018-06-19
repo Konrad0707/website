@@ -19,8 +19,6 @@ class App extends Component {
     document.body.style.maxWidth = `${bodyMaxWidth}%`
     document.body.style.background ='FFFFFFF'
     if (designWidth) {
-      // 如果 designWidth > 0 使用 Rem Layout
-      // @闲闲 提供
       let screenWidth = document.documentElement.clientWidth
 
       if (screenWidth > bodyMaxWidth) {
