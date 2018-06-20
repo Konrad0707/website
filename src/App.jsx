@@ -4,9 +4,7 @@ import './App.css';
 
 class App extends Component {
   static propTypes = {
-    // 页面最大宽度
     bodyMaxWidth: PropTypes.number,
-    // 设计稿宽度
     designWidth: PropTypes.number,
   }
 
@@ -17,7 +15,7 @@ class App extends Component {
   constructor({bodyMaxWidth, designWidth}) {
     super()
     document.body.style.maxWidth = `${bodyMaxWidth}%`
-    document.body.style.background ='FFFFFFF'
+    document.body.style.background ='FFFFFF'
     if (designWidth) {
       let screenWidth = document.documentElement.clientWidth
 

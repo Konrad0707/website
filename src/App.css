@@ -1,37 +1,45 @@
-.App {
-  text-align: center;
-  width:100%;
-}
+@media all and (max-width: 770px) {
+  .App {
+    text-align: center;
+    width:100%;
+    font-family: sans-serif;
+  }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+  h1,h2,h3,h4 {
+    font-family: "Montserrat",sans-serif;
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: black;
-}
+  }
 
-ul {
-  list-style-type: none;
-  display: inline-flex;
-  width:100%;
-  overflow: hidden;
-  
-}
+  nav{
+    background-color: #7b7474;
 
-.nav-link {
-  opacity: 0;
-}
+  }
 
-.NavBar {
-  height: 50px;
-}
+  ul {
+    list-style-type: none;
+    display: inline-flex;
+    width:100%;
+    overflow: hidden;
+  }
 
-.NavBar .nav-name {
-  font-size: 36px;
-  margin-left: 10px;
+  .left {
+    text-align: left;
+  }
+
+  .ul{
+
+    margin-top: 0px;
+    width: 100%;
+    text-align: right;
+    align-content: center;
+  }
+
+  header {
+    background-color: #3f51b5;
+  }
+
+  .menu li {
+
+  }
+
 }

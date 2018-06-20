@@ -17,15 +17,12 @@ class Page extends Component {
       <App>
         <Router>
           <div>
-            <header>
-              <ul className = "menu">
-                <li><Link to="Page#About">About</Link></li>
-                <li><Link to="Page#Portfolio">Portfolio</Link></li>
-                <li><Link to="Page#Projects">Projects</Link></li>
-                <li><Link to="Page#Contact">Contact</Link></li>
-
-              </ul>
-            </header>
+            <nav className = "menu">
+                <Link to="Page#About"><span>About</span></Link>
+                <Link to="Page#Portfolio">Portfolio</Link>
+                <Link to="Page#Projects">Projects</Link>
+                <Link to="Page#Contact">Contact</Link>
+            </nav>
             <div className = "content">
               <div id="About">
                 <About />
