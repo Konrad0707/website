@@ -1,25 +1,46 @@
 import React, {Component} from 'react';
+import Spotify from 'react-spotify-player';
 import './major.scss';
 
+const size = {
+  width: '90%',
+  height: 80,
+};
+
 export default class about extends Component{
+
   render(){
     return(
       <div className = 'container'>
-        <h1>Kai-Wei 'Konrad' Wang </h1>
-        <h2>Software Developer, World Traveller, Boba Addict</h2>
-        <h3>Heres a little bit about me</h3>
-        <div className='left'>
-          <h3 className='title'> Location </h3>
-            <h4> Atlanta, GA </h4>
-          <h3 className='title'> Social Media </h3>
-            <h4> @wafflelord</h4>
-            <h4>Linkedin</h4>
-          <h3 className='title'> Quote of The Week </h3>
-            <h4> "All of the biggest technological inventions created by man – the airplane, the automobile, the computer – says little about his intelligence, but speaks volumes about his laziness." – Mark Kennedy</h4>
-          <h3 className='title'> On Repeat </h3>
+        <center><h1>Kai-Wei 'Konrad' Wang </h1>
+        <h2 className="assc">Software Developer &emsp; | &emsp; World Traveller &emsp;| &emsp; Boba Addict</h2></center>
+        <h2>Heres a little bit about me</h2>
+        <div className= 'layout'>
+          <div className='left'>
+            <h3 className='title'> Location </h3>
+              <p> Atlanta, GA </p>
+            <h3 className='title'> Social Media </h3>
+              <p> @wafflelord</p>
+              <p>Linkedin</p>
+            <h3 className='title'> Quote of The Week </h3>
+              <p> "All of the biggest technological inventions created by man " – Mark Kennedy</p>
+            <h3 className='title'> On Repeat </h3>
+            <Spotify
+              uri="spotify:track:6T8cJz5lAqGer9GUHGyelE"
+              view={'list'}
+              theme={'black'}
+              size={size}
+            />
+          </div>
+          <div className='right'>
+            <h1>Hi there!</h1>
+            <p>My Name is Kai-Wei Wang, but my friends call me Konrad.
+            I'm a 3rd year at Georgia Tech majoring in Computer Science, I love everything about this field
+            from intense sleep deprived hackathons to developing semester long projects,
+            I've learned and experienced so much throughout my time at Georgia Tech. </p>
 
-        </div>
-        <div className='right'>
+
+          </div>
         </div>
       </div>
 

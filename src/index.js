@@ -3,7 +3,7 @@ import { render } from 'react-dom'
 import App from './App.jsx';
 import registerServiceWorker from './registerServiceWorker';
 import { HashRouter as Router} from 'react-router-dom';
-import { HashLink as Link } from 'react-router-hash-link';
+//import { HashLink as Link } from 'react-router-hash-link';
 
 import About from './components/about.js'
 import Contact from './components/contact.js'
@@ -17,12 +17,14 @@ class Page extends Component {
       <App>
         <Router>
           <div>
-            <nav className = "menu">
-                <Link to="Page#About"><span>About</span></Link>
-                <Link to="Page#Portfolio">Portfolio</Link>
-                <Link to="Page#Projects">Projects</Link>
-                <Link to="Page#Contact">Contact</Link>
-            </nav>
+            <div className = "menu">
+              <ul>
+                <li><a href="Page#About">About</a></li>
+                <li><a href="Page#Portfolio">Portfolio</a></li>
+                <li><a href="Page#Projects">Projects</a></li>
+                <li><a href="Page#Contact">Contact</a></li>
+              </ul>
+            </div>
             <div className = "content">
               <div id="About">
                 <About />
