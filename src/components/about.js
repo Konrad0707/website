@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import Spotify from 'react-spotify-player';
-import './major.scss';
+
+import insta from '../images/instagram.png';
+import linked from '../images/linkedin.png';
+import './major.css';
 
 const size = {
   width: '90%',
@@ -20,8 +23,15 @@ export default class about extends Component{
             <h3 className='title'> Location </h3>
               <p> Atlanta, GA </p>
             <h3 className='title'> Social Media </h3>
-              <p> @wafflelord</p>
-              <p>Linkedin</p>
+            <div className = 'social'>
+              <img src={insta} alt=""  width="7%" height="auto"/>
+              <a href='www.instagram.com/wafflelord'> @wafflelord</a>
+              <br></br>
+              <br></br>
+              <img src={linked} alt=""  width="7%" height="auto"/>
+              <a href='www.linkedin.com/kwang0707'> Konrad Wang</a>
+            </div>
+
             <h3 className='title'> Quote of The Week </h3>
               <p> "All of the biggest technological inventions created by man " – Mark Kennedy</p>
             <h3 className='title'> On Repeat </h3>

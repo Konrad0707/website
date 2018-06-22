@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './major.scss';
+import './major.css';
 
 export default class resume extends Component{
   render(){

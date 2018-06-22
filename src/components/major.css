@@ -1,0 +1,24 @@
+/*About section*/
+.layout {
+  display:flex;
+  flex{
+    flex-direction: row;
+  }
+  wrap{
+    width: 100%;
+  }
+}
+
+.social{
+  display: inline-block;
+}
+.social a {
+  color: #E59400;
+  text-decoration: none;
+  font-family: sans-serif;
+  height: 100%;
+  vertical-align: middle;
+}
+.social a:hover{
+  color: #cccccc;
+}

@@ -40,21 +40,9 @@
     overflow: hidden;
   }
 
-  .layout {
-    display:flex;
-    flex{
-      flex-direction: row;
-    }
-    wrap{
-      width: 100%;
-    }
-  }
-
-  .left {
-    width:100%;
-  }
   .assc {
     font-weight: 50;
   }
+
 
 }
