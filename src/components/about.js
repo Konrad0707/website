@@ -15,9 +15,10 @@ export default class about extends Component{
   render(){
     return(
       <div className = 'container'>
-        <center><h1>Kai-Wei 'Konrad' Wang </h1>
-        <h2 className="assc">Software Developer &emsp; | &emsp; World Traveller &emsp;| &emsp; Boba Addict</h2></center>
-        <h2>Heres a little bit about me</h2>
+        <center>
+          <h1>Kai-Wei 'Konrad' Wang </h1>
+          <h2 className="assc">Software Developer &emsp; | &emsp; World Traveller &emsp;| &emsp; Boba Addict</h2>
+        </center>
         <div className= 'layout'>
           <div className='left'>
             <h3 className='title'> Location </h3>
@@ -48,8 +49,6 @@ export default class about extends Component{
             I'm a 3rd year at Georgia Tech majoring in Computer Science, I love everything about this field
             from intense sleep deprived hackathons to developing semester long projects,
             I've learned and experienced so much throughout my time at Georgia Tech. </p>
-
-
           </div>
         </div>
       </div>

@@ -1,48 +1,54 @@
-@media all and (max-width: 1080px) {
-  .App {
-    text-align: center;
-    width:100%;
-    font-family: sans-serif;
-  }
 
-  h1,h2,h3,h4,p {
-    font-family: futura-pt, sans-serif;
-    font-weight:100;
-  }
-
-  .menu{
-    position:fixed;
-    top:0px;
-    background-color: #333;
-    overflow: hidden;
-    width:100%;
-  }
-  .menu a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  .menu a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
+.App {
+  text-align: center;
+  width:100%;
 }
-  ul {
-    list-style-type: none;
-    display: inline-flex;
-    width:100%;
-    overflow: hidden;
-  }
 
-  .assc {
-    font-weight: 50;
-  }
+h1,h2,h3,h4,p {
+  font-family: "Fira Sans", Helvetica, Arial, Verdana, sans-serif;
+  font-weight:100;
+}
+
+.menu {
+  position: fixed;
+  width:100%;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+}
+.menu ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.menu > li {
+  float:right;
+}
+.menu a {
+  font-family: sans-serif;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menu a:hover:not(.active) {
+  background-color: #111;
+}
+.menu .active {
+    background-color: #4CAF50;
+}
 
 
+ul {
+  list-style-type: none;
+  display: inline-flex;
+  width:100%;
+  overflow: hidden;
+}
+
+.assc {
+  font-weight: 50;
 }

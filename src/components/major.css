@@ -8,17 +8,23 @@
     width: 100%;
   }
 }
-
+.right {
+  margin-top:-10px;
+}
 .social{
   display: inline-block;
+  a{
+    color: #E59400;
+    text-decoration: none;
+    font-family: sans-serif;
+    height: 100%;
+    vertical-align: middle;
+  }
+  a:hover{
+    color: #cccccc;
+  }
 }
-.social a {
-  color: #E59400;
-  text-decoration: none;
-  font-family: sans-serif;
-  height: 100%;
-  vertical-align: middle;
-}
-.social a:hover{
-  color: #cccccc;
+
+center {
+  margin-top: 100px;
 }

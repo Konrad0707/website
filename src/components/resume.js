@@ -4,7 +4,9 @@ import './major.css';
 export default class resume extends Component{
   render(){
     return(
-      <div>bye</div>
+      <form method="get" action="../files/Kai-WeiWangResume.pdf">
+        <button type="submit">Download!</button>
+      </form>
     )
   }
 
