@@ -26,17 +26,17 @@ class Page extends Component {
               </ul>
             </div>
             <div className = "content">
-              <div id="About">
-                <About />
+              <div id="About" className="screen">
+                <About/>
               </div>
               <img src={bg} alt=""  width="5%" height="auto"/>
-              <div id="Portfolio">
+              <div id="Portfolio" className="screen">
                 <Portfolio />
               </div>
-              <div id = "Projects">
+              <div id = "Projects" className="screen">
                 <Projects />
               </div>
-              <div id="Contact">
+              <div id="Contact" className="screen">
                 <Contact />
               </div>
 
