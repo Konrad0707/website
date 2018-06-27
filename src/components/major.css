@@ -28,3 +28,24 @@
 center {
   margin-top: 100px;
 }
+
+/*Resume Section*/
+
+.resume h1 {
+  text-align: center;
+}
+.resume .content {
+  display: flex;
+  justify-content: center;
+}
+
+.job_title {
+  font-style: italic;
+  color: #AEBD38;
+}
+.imagebox {
+  background-color: #C4DFE6;
+  max-width: 720px;
+  max-height: 585px;
+  border-radius: 1px;
+}
