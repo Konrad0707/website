@@ -42,7 +42,7 @@ h1,h2,h3,h4,p {
 .menu a:hover:not(.active) {
   background-color: #111;
 }
-.menu .active {
+.menu:active {
     background-color: #4CAF50;
 }
 

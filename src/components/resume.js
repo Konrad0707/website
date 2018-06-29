@@ -1,7 +1,10 @@
 import React, {Component} from 'react';
 import './major.css';
 import file from './files/Kai-WeiWangResume.pdf';
-import BluedLogo from '../images/bluedLogo.png'
+import BluedLogo from '../images/bluedLogo.png';
+import homedepot from '../images/homedepot.png';
+import ael from '../images/ael.png';
+import gtri from '../images/gtri.png';
 
 export default class resume extends Component{
   render(){
@@ -13,6 +16,9 @@ export default class resume extends Component{
             <div className = "content">
               <div className = "imagebox">
                 <img src = {BluedLogo} alt = ""/>
+                <div className = "overlay">
+                  <a href="https://www.blued.com/intl/">Learn more about Blued</a>
+                </div>
               </div>
               <div className = "detail">
                 <h2>Blued</h2>
@@ -20,14 +26,14 @@ export default class resume extends Component{
                 Beijing, China</strong></h4>
                 <p>Front End Engineer</p>
               </div>
-              <div className="overlay">
-                <div>John Doe</div>
-              </div>
             </div>
 
             <div className = "content">
               <div className = "imagebox">
-                <img src = {BluedLogo} alt = ""/>
+                <img src = {homedepot} alt = ""/>
+                <div className = "overlay">
+                  <a href="https://www.blued.com/intl/">Learn more about Blued</a>
+                </div>
               </div>
               <div className = "detail">
                 <h2>The HomeDepot</h2>
@@ -41,11 +47,14 @@ export default class resume extends Component{
 
             <div className = "content">
               <div className = "imagebox">
-                <img src = {BluedLogo} alt = ""/>
+                <img src = {ael} alt = ""/>
+                <div className = "overlay">
+                  <a href="https://www.blued.com/intl/">Learn more about Blued</a>
+                </div>
               </div>
               <div className = "detail">
                 <h2>GT Augmented Environments Lab</h2>
-                <h4><strong><span className = "job_title">Software Engineer Intern</span><br></br>
+                <h4><strong><span className = "job_title">UI/UX Developer</span><br></br>
                 Atlanta, GA</strong></h4>
                 <p>Develop community AR tableaux for Vertically Integrated Projects (VIP)Produce AR experience in which
                 multiple users can place AR entities in physical space in real-time which are programmed through JavaScript, C#
@@ -56,7 +65,10 @@ export default class resume extends Component{
 
             <div className = "content">
               <div className = "imagebox">
-                <img src = {BluedLogo} alt = ""/>
+                <img src = {gtri} alt = ""/>
+                <div className = "overlay">
+                  <a href="https://www.blued.com/intl/">Learn more about Blued</a>
+                </div>
               </div>
               <div className = "detail">
                 <h2>Georgia Tech Research Institute</h2>
