@@ -32,7 +32,7 @@ export default class resume extends Component{
               <div className = "imagebox">
                 <img src = {homedepot} alt = ""/>
                 <div className = "overlay">
-                  <a href="https://www.blued.com/intl/">Learn more about Blued</a>
+                  <a href="http://ir.homedepot.com/news-releases/2018/04-18-2018-130228118">Learn more about HomeDepot</a>
                 </div>
               </div>
               <div className = "detail">
@@ -49,7 +49,7 @@ export default class resume extends Component{
               <div className = "imagebox">
                 <img src = {ael} alt = ""/>
                 <div className = "overlay">
-                  <a href="https://www.blued.com/intl/">Learn more about Blued</a>
+                  <a href="https://itunes.apple.com/us/app/invisible-cities/id1369569108?mt=8">Checkout our APP!</a>
                 </div>
               </div>
               <div className = "detail">
@@ -67,7 +67,7 @@ export default class resume extends Component{
               <div className = "imagebox">
                 <img src = {gtri} alt = ""/>
                 <div className = "overlay">
-                  <a href="https://www.blued.com/intl/">Learn more about Blued</a>
+                  <a href="http://stip.gatech.edu/using-the-orcid-id/">Learn more about my Research</a>
                 </div>
               </div>
               <div className = "detail">
