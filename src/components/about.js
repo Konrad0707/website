@@ -50,6 +50,9 @@ export default class about extends Component{
             from intense sleep deprived hackathons to developing semester long projects,
             I've learned and experienced so much throughout my time at Georgia Tech. </p>
           </div>
+
+          <div className = "more details">
+          </div>
         </div>
       </div>
 

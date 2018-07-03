@@ -44,31 +44,32 @@ center {
   display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width:100%;
-  margin: 30px;
+  width:74%;
+  margin-bottom: 34px;
+  margin-left: 20%;
 }
 .resume .detail {
-  width:60%;
+  width:57%;
+  margin-top:-14px;
 }
 .imagebox {
   background-color: #EDEFF0;
-  width: 450px;
-  max-height: 250px;
+  width: 375px;
+  height: 190px;
   border-radius: 50px;
   text-align: center;
+  position:relative;
 }
 
 .imagebox > img {
-  height:200px;
+  height:150px;
   width:auto;
-  width: 450px;
-  max-height: 250px;
+  max-width: 97%;
   opacity: 1;
   display: block;
-  width: 100%;
-  height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  padding-left: 1.5%;
 }
 
 .imagebox > .overlay {
@@ -77,9 +78,12 @@ center {
   position: absolute;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
   text-align: center;
-  padding-left: 465px;
-  padding-bottom:220px;
+  font-size: 18px;
 }
 
 .overlay > a{
