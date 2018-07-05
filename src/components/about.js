@@ -1,14 +1,21 @@
 import React, {Component} from 'react';
 import Spotify from 'react-spotify-player';
+import { Fade } from 'react-slideshow-image';
 
 import insta from '../images/instagram.png';
 import linked from '../images/linkedin.png';
+import blued from '../images/bluedLogo.png';
 import './major.css';
 
 const size = {
   width: '90%',
   height: 80,
 };
+
+const images = [
+  blued,
+  blued
+];
 
 export default class about extends Component{
 
@@ -26,11 +33,11 @@ export default class about extends Component{
             <h3 className='title'> Social Media </h3>
             <div className = 'social'>
               <img src={insta} alt=""  width="7%" height="auto"/>
-              <a href='www.instagram.com/wafflelord'> @wafflelord</a>
+              <a href='http://www.instagram.com/wafflelord'> @wafflelord</a>
               <br></br>
               <br></br>
               <img src={linked} alt=""  width="7%" height="auto"/>
-              <a href='www.linkedin.com/kwang0707'> Konrad Wang</a>
+              <a href='http://www.linkedin.com/in/kwang0707'> Konrad Wang</a>
             </div>
 
             <h3 className='title'> Quote of The Week </h3>
@@ -49,10 +56,13 @@ export default class about extends Component{
             I'm a 3rd year at Georgia Tech majoring in Computer Science, I love everything about this field
             from intense sleep deprived hackathons to developing semester long projects,
             I've learned and experienced so much throughout my time at Georgia Tech. </p>
+            <Fade
+              images={images}
+              duration={7000}
+              transitionDuration={1000}
+            />
           </div>
 
-          <div className = "more details">
-          </div>
         </div>
       </div>
 

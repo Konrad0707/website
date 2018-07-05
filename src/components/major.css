@@ -1,28 +1,27 @@
 /*About section*/
 .layout {
   display:flex;
-  flex{
-    flex-direction: row;
-  }
-  wrap{
-    width: 100%;
-  }
+  padding-left:13px;
+  padding-right: 13px;
+  justify-content: space-between;
 }
 .right {
   margin-top:-10px;
+  margin-left: 43px;
 }
 .social{
   display: inline-block;
-  a{
-    color: #E59400;
-    text-decoration: none;
-    font-family: sans-serif;
-    height: 100%;
-    vertical-align: middle;
-  }
-  a:hover{
-    color: #cccccc;
-  }
+}
+.social a{
+  color: #E59400;
+  text-decoration: none;
+  font-family: sans-serif;
+  margin-top:8px;
+  margin-left:5px;
+  position:absolute;
+}
+.social a:hover{
+  color: #cccccc;
 }
 
 center {
@@ -46,7 +45,7 @@ center {
   flex-wrap: wrap;
   width:74%;
   margin-bottom: 34px;
-  margin-left: 20%;
+  margin-left: 17%;
 }
 .resume .detail {
   width:57%;
@@ -106,6 +105,33 @@ center {
 }
 
 .job_title {
-  font-style: italic;
   color: #AEBD38;
+}
+.job_title span {
+  font-style: italic;
+}
+
+.detail h2 {
+  margin-bottom: -1rem;
+}
+
+
+/*projects Section*/
+
+.project_content {
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project_content h1 {
+  width:100%;
+}
+.box {
+  width:30%;
+  border: solid black 8px;
+  border-radius: 10px;
+}
+.box img {
+  width:100%;
+  height:100%;
 }

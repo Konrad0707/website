@@ -29,7 +29,6 @@ class Page extends Component {
               <div id="About" className="screen">
                 <About/>
               </div>
-              <img src={bg} alt=""  width="5%" height="auto"/>
               <div id="Portfolio" className="screen">
                 <Portfolio />
               </div>

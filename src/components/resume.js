@@ -22,7 +22,7 @@ export default class resume extends Component{
               </div>
               <div className = "detail">
                 <h2>Blued</h2>
-                <h4><strong><span className = "job_title">Frontend engineer Intern</span><br></br>
+                <h4><strong><span className = "job_title">Frontend engineer Intern || <span> May 2018 ~ Aug 2018  </span></span><br></br>
                 Beijing, China</strong></h4>
                 <p>Front End Engineer</p>
               </div>
@@ -37,7 +37,7 @@ export default class resume extends Component{
               </div>
               <div className = "detail">
                 <h2>The HomeDepot</h2>
-                <h4><strong><span className = "job_title">Software Engineer Intern</span><br></br>
+                <h4><strong><span className = "job_title">Software Engineer Intern || <span> Nov 2017 ~ present </span></span><br></br>
                 Atlanta, GA</strong></h4>
                 <p>Works in the Deep learning and Artificial exploratory team, focusing on image processing
                 Uses software design, analysis and programming skills to create innovative automated test
@@ -54,7 +54,7 @@ export default class resume extends Component{
               </div>
               <div className = "detail">
                 <h2>GT Augmented Environments Lab</h2>
-                <h4><strong><span className = "job_title">UI/UX Developer</span><br></br>
+                <h4><strong><span className = "job_title">UI/UX Developer || <span> Aug 2017 ~ present </span></span><br></br>
                 Atlanta, GA</strong></h4>
                 <p>Develop community AR tableaux for Vertically Integrated Projects (VIP)Produce AR experience in which
                 multiple users can place AR entities in physical space in real-time which are programmed through JavaScript, C#
@@ -72,7 +72,7 @@ export default class resume extends Component{
               </div>
               <div className = "detail">
                 <h2>Georgia Tech Research Institute</h2>
-                <h4><strong><span className = "job_title">Undergraduate Research Assistant</span><br></br>
+                <h4><strong><span className = "job_title">Undergraduate Research Assistant || <span> Oct 2016 ~ Aug 2017</span></span><br></br>
                 Atlanta, GA</strong></h4>
                 <p>Uses longitudinal, cross-sectional, and comparative research designs to generate empirical analyses of large samples
                 of research literature in ‘STEM-ED’ and ‘Cog-Sci’ research communities. Analyzed the connections between STEM educational
