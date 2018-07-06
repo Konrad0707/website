@@ -30,16 +30,16 @@ center {
 
 /*Resume Section*/
 
-.resume h1 {
+.resume_container h1 {
   text-align: center;
 }
-.resume .container_exp {
+.resume_container .container_exp {
   display: flex;
   flex-direction:row;
   flex-wrap: wrap;
   align-content: center;
 }
-.resume .content {
+.resume_container .content {
   display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -47,7 +47,7 @@ center {
   margin-bottom: 34px;
   margin-left: 17%;
 }
-.resume .detail {
+.resume_container .detail {
   width:57%;
   margin-top:-14px;
 }
@@ -134,4 +134,23 @@ center {
 .box img {
   width:100%;
   height:100%;
+}
+
+/*contact Section*/
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  width:100%;
+}
+footer a{
+  color: #E59400;
+  text-decoration: none;
+}
+
+footer img {
+  width:200px;
+  padding-left: 9px;
+  padding-right: 9px;
 }

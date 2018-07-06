@@ -9,7 +9,7 @@ import gtri from '../images/gtri.png';
 export default class resume extends Component{
   render(){
     return(
-      <div className = 'resume'>
+      <div className = 'resume_container'>
         <h1> <strong>Here's what I've done so far</strong></h1>
         <a href={file} download>Click to Download resume</a>
         <div className = "container_exp">
