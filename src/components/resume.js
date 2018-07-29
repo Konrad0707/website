@@ -24,7 +24,11 @@ export default class resume extends Component{
                 <h2>Blued</h2>
                 <h4><strong><span className = "job_title">Frontend engineer Intern || <span> May 2018 ~ Aug 2018  </span></span><br></br>
                 Beijing, China</strong></h4>
-                <p>Front End Engineer</p>
+                <p>Developing modular front-end applications using HTML5, CSS, ReactJS, JSON, AJAX, nodejs, etc.
+                Working closely with members of the product development team to achieve the best user experience while writing modular and scalable code
+                Work with a fast paced web team to produce high-quality and innovation website projects using an array of web development tools and emphasis on front-end design and features
+                Mainly worked on application events for the pride month with 40 million DAU.
+                </p>
               </div>
             </div>
 
