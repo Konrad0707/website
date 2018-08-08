@@ -22,10 +22,6 @@ export default class about extends Component{
   render(){
     return(
       <div className = 'container'>
-        <center>
-          <h1>Kai-Wei 'Konrad' Wang </h1>
-          <h2 className="assc">Software Developer &emsp; | &emsp; World Traveller &emsp;| &emsp; Boba Addict</h2>
-        </center>
         <div className= 'layout'>
           <div className='left'>
             <h3 className='title'> Location </h3>

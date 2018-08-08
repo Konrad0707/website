@@ -9,7 +9,7 @@ import About from './components/about.js'
 import Contact from './components/contact.js'
 import Projects from './components/projects.js'
 import Portfolio from './components/resume.js'
-import bg from './images/topbanner.jpg'
+import Cover from './components/cover.js'
 
 class Page extends Component {
   render () {
@@ -26,6 +26,9 @@ class Page extends Component {
               </ul>
             </div>
             <div className = "content">
+              <div id="Cover" className= "screen">
+                <Cover/>
+              </div>
               <div id="About" className="screen">
                 <About/>
               </div>

@@ -1,13 +1,40 @@
+/*Cover section*/
+
+.cover_content {
+  height:768px;
+  color: white;
+}
+
+.cover_content h1 {
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.cover_content h2 {
+  font-size: 50px;
+}
+
+.Title {
+  margin-left: 60px;
+  margin-top: 200px;
+}
+
+
 /*About section*/
 .layout {
   display:flex;
   padding-left:13px;
   padding-right: 13px;
   justify-content: space-between;
+  background-color: white;
 }
 .right {
   margin-top:-10px;
   margin-left: 43px;
+}
+
+.right p {
+  font-size: 20px;
 }
 .social{
   display: inline-block;
