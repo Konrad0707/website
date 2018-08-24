@@ -5,14 +5,14 @@
 }
 .screen {
   width:100%;
-  margin-top:100px;
 }
 body{
-  background-image: url("images/gray.jpg");
+  background-image: url("images/newgray.jpg");
   background-color: #1c1811;
   background-position: top;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 h1,h2,h3,h4,p {
   font-family: "Fira Sans", Helvetica, Arial, Verdana, sans-serif;

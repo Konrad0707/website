@@ -6,8 +6,8 @@ export default class projects extends Component{
     return(
       <div className='cover_content'>
         <div className = "Title">
-          <h1>Kai-Wei 'Konrad' Wang </h1>
-          <h2>Software Developer<br/>World Traveller<br/> Boba Addict</h2>
+          <h1><mark>Kai-Wei 'Konrad' Wang </mark></h1>
+          <h2><mark>Software Developer<br/>World Traveller<br/> Boba Addict</mark></h2>
         </div>
       </div>
     )
