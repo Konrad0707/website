@@ -23,6 +23,11 @@ mark {
   margin-top: 15%;
 }
 
+.DownMarker {
+  position: absolute;
+  bottom: 10px;
+  margin-left: 50%;
+}
 
 /*About section*/
 .layout {
